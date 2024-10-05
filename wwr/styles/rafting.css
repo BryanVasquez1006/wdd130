@@ -1,0 +1,78 @@
+:root {
+    --roboto-font:'Roboto Slab';
+    --franklin-font:'Libre Franklin';
+    --primary-color: #BEE9E8;
+    --secondary-color: #62b6cb;
+    --accent1-color: #1B4965;
+    --accent2-color: #CAE9FF;
+    --accent3-color: #5FA8D3;
+}
+
+
+
+p {
+    font-family: var(--franklin-font);
+    color: var(--accent1-color);
+}
+
+h1 {
+    font-family: var(--roboto-font);
+    color: var(--secondary-color);
+   
+}
+
+h2 {
+    font-family: var(--roboto-font);
+    color: var(--secondary-color);
+}
+
+a {
+   text-decoration: none; 
+   font-family: var(--roboto-font);
+}
+
+.hero {
+    position: relative; 
+}
+
+.hero img {
+    display: block;
+    width: 100%; 
+    height: auto; 
+}
+
+.hero h1 {
+    position: absolute; 
+    top: 20%; 
+    left: 35%; 
+    color: var(--accent3-color); 
+    font-size: 45px;
+}
+
+.hero article {
+    position: absolute;
+    bottom: 40%;
+    left: 5%; 
+    background-color: var(--accent2-color);
+    opacity: 0.85;
+    padding: 10px;
+    border-radius: 5px; 
+    
+}
+
+.hero article img {
+    float: right;
+    width: 250px; 
+    height: auto; 
+}
+
+p {
+    margin: 0;
+    color: var(--accent1-color);
+}
+
+section img {
+    width: 45%;
+    height: auto;
+}
+
