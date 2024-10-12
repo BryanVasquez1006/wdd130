@@ -76,3 +76,77 @@ section img {
     height: auto;
 }
 
+header {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+.logo-container {
+    text-align: center;
+}
+
+.nav-buttons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+
+a {
+    border: solid black 1px;
+    padding: 10px 40px;
+}
+
+.centered-title {
+    text-align: center;
+    
+}
+
+.history-section {
+    /* display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: space-evenly; */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    align-items: center;
+    text-align: start;
+}
+
+.history-section img {
+    width: 100%;
+    height: auto;
+}
+
+.adventure-flex-gallery img {
+    width: 100%;
+    height: fit-content;
+}
+
+.adventure-flex-gallery {
+    display: grid;
+    grid-template-columns:  1fr 1fr 1fr 1fr 1fr;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+footer p {
+    flex: 1;
+    text-align: center;
+    
+}
+
+footer a, img {
+    border: 0px;
+    width: 20px;
+}
+
+
+
+
