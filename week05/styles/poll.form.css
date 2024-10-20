@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Roboto;
+}
+
+header {
+    margin: 0 auto;
+
+}
+
+h1 {
+    margin: 1rem;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+form {
+    width: 40rem;
+    margin: 10px;
+    padding: 10px;
+    border: solid black;
+    border-radius: 10px;
+    background-color: beige;
+    display: grid;
+}
+
+fieldset {
+    display: grid;
+    grid-gap: 10px;
+    padding: 1rem;
+}
+
+legend {
+    padding: 0.5rem;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+label, input, button, select, textarea {
+    font-family: Roboto;
+}
+
+label {
+    text-align: right;
+    padding-right: 1rem;
+}
+
+input, select, textarea {
+    padding: 16px;
+    font-size: 16px;
+    border: 1px 1px 1px;
+    
+}
+
+#pet {
+    width: 20px;
+    height: 20px;
+    vertical-align: bottom;
+}
+
+button {
+    margin: 10px;
+    background-color: rgb(50, 187, 100);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 18px;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: rgb(31, 166, 112);
+}
+
+footer {
+    margin: 20px;
+    width: 600px;
+    text-align: center;
+    font-size: 16px;
+    color: #777;
+    border-top: 1px solid black;
+}
+
+.form-item {
+    display: grid;
+    align-items: center;
+}
+
+.column1 {
+    grid-template-columns: 3fr 1fr;
+    margin: 10px;
+}
+
+.column2 {
+    grid-template-columns: 1fr 2fr;
+    margin: 10px;
+}
+
+div {
+    display: flex;
+    align-items: centers;
+}
