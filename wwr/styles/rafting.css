@@ -40,6 +40,19 @@ a {
    font-family: var(--roboto-font);
 }
 
+main {
+    margin: 25px;
+}
+
+ th, td {
+    font-family: var(--franklin-font);
+    width: 100%;
+    text-align: center;
+    border: 3px solid var(--accent3-color);
+
+}
+
+
 .hero {
     position: relative; 
 }
@@ -171,12 +184,13 @@ footer {
     display: flex;
     align-items: center;
     justify-content: space-around;
+    align-content: center;
 }
 
 footer p {
     flex: 1;
     text-align: center;
-    margin-left: 300px;
+
     
 }
 
@@ -371,3 +385,72 @@ figure {
     border-radius: 10px;
     
 }
+
+.plan-card {
+    border: 1px solid var(--accent2-color);
+    border-radius: 20px;
+    width: 33%;
+    height: auto;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--accent2-color);
+}
+
+.plan-card img, p, button {
+    padding: 30px 0px 30px 0px;
+    text-align: center;
+}
+
+.plan-card div {
+    display: flex;
+    justify-content: center;
+}
+
+.plan-card img {
+    width: 100%;
+    height: 400px;
+    
+}
+
+.plans-container {
+    display: flex;
+    margin: 0px 20px 0px 0px;
+    justify-content: space-between;
+    align-content: space-between;
+    gap: 50px;
+}
+
+main h1 {
+    text-align: center;
+    margin: 50px;
+    font-size: 50px;
+}
+
+article a {
+    background-color:var(--accent1-color);
+    color: var(--secondary-color) ;
+    border-radius: 20px;
+}
+
+
+article a:hover {
+    background-color: var(--secondary-color);
+    color: var(--accent1-color) ;
+}
+
+.table-info {
+    padding: 20px;
+}
+
+.class-days {
+    font-size: 20px;
+    background-color: var(--accent3-color);
+    color: var(--accent1-color);
+}
+
+.sketchlink {
+    width: 200px;
+}
+
