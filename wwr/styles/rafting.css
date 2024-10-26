@@ -17,6 +17,12 @@ p {
     color: var(--accent1-color);
 }
 
+figcaption {
+    font-family: var(--franklin-font);
+    margin: 10px;
+    text-align: center;
+}
+
 h1 {
     font-family: var(--roboto-font);
     color: var(--secondary-color);
@@ -67,6 +73,22 @@ a {
     float: right;
     width: 250px; 
     height: auto; 
+}
+
+.main-heroimg {
+    display: block;
+    width: 100%;
+    height: auto;
+   
+}
+
+.main-hero h1 {
+    position: absolute;
+    text-align: center;
+    top: 40%;
+    right: 26%;
+    font-size: 50px;
+    color: var(--accent2-color);
 }
 
 p {
@@ -303,3 +325,49 @@ figure {
     height: 50px;  
 }
 
+.services-imgs-cont img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.services {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+
+.services div h1 {
+    text-align: center;
+    font-size: 50px;
+}
+
+.main-images-layout {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 100px;
+    column-gap: 100px;
+    background-color: #CAE9FF;
+    padding: 30px;
+    border-radius: 10px;
+    align-items: center;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    
+}
+
+.services a {
+    border-radius: 10px;
+    background-color: var(--accent1-color);
+    color: var(--accent2-color);
+    
+}
+
+.services div a:hover {
+    background-color: var(--accent2-color);
+    color: var(--accent1-color);
+    border: 1px solid var(--accent1-color);
+    border-radius: 10px;
+    
+}
